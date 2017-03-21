@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cl_psba.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levmar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levmar_func_cpu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="readparams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_spdinv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_linearalg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sba_func.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_cholmod.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trust_region.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cl_psba.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="psba.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="readparams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_spdinv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_linearalg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sba_func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="levmar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_cholmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trust_region.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\CL_files\compute_dpb.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_ea.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_eb.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_exQT.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_g.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_jacobiQT.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_newp.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_S.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_U.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_V.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_Vinv.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_Wblks.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_Yblks.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\update_p.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\update_UV.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\matVec_mul.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\PSBA.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\SPD_inv.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\restore_UVdiag.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_Jmultiply.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\cholmod_blk.cl">
+      <Filter>CL_files</Filter>
+    </None>
+    <None Include="..\CL_files\compute_Bg.cl">
+      <Filter>CL_files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CL_files">
+      <UniqueIdentifier>{0746a150-803d-4670-ade2-3dc17d59a11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{1fec9dcf-aa5c-4825-bc10-abfd45ba792f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{1213d5c4-7cb0-4901-99de-ea8113a4a85c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

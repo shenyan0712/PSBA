@@ -1,0 +1,81 @@
+﻿生成启动时间为 2017/2/21 21:19:38。
+     1>项目“E:\sync_directory\workspace\PSBA_LM\bundle_adjustment\bundle_adjustment.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\bundle_adjustment.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt cl_psba.cpp levmar.cpp levmar_func.cpp levmar_func_cpu.cpp linearalg.cpp main.cpp misc.cpp readparams.cpp
+         cl_psba.cpp
+         levmar.cpp
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(52): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(217): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(287): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(386): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(461): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(522): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(593): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(661): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(734): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(801): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(866): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(926): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(978): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\bundle_adjustment\levmar_func.cpp(1020): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar.cpp(248): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>levmar.cpp(321): warning C4101: “cnt_arr”: 未引用的局部变量
+     1>levmar.cpp(321): warning C4101: “idx_arr”: 未引用的局部变量
+     1>levmar.cpp(320): warning C4101: “idx”: 未引用的局部变量
+         levmar_func.cpp
+     1>levmar_func.cpp(52): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(217): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(287): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(386): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(461): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(522): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(593): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(661): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(734): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(801): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(866): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(926): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(978): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>levmar_func.cpp(1020): warning C4838: 从“int”转换到“size_t”需要收缩转换
+         levmar_func_cpu.cpp
+         linearalg.cpp
+     1>linearalg.cpp(236): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>linearalg.cpp(286): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>linearalg.cpp(300): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>linearalg.cpp(473): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>linearalg.cpp(459): warning C4101: “queue_device”: 未引用的局部变量
+     1>linearalg.cpp(522): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>linearalg.cpp(534): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>linearalg.cpp(513): warning C4101: “queue_device”: 未引用的局部变量
+     1>linearalg.cpp(623): warning C4838: 从“int”转换到“size_t”需要收缩转换
+         main.cpp
+         misc.cpp
+     1>misc.cpp(140): warning C4477: 'fprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'size_t'
+         misc.cpp(140): note: consider using '%zu' in the format string
+         readparams.cpp
+     1>readparams.cpp(62): warning C4477: 'fscanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+         readparams.cpp(62): note: consider using '%lf' in the format string
+     1>readparams.cpp(141): warning C4477: 'sscanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+         readparams.cpp(141): note: consider using '%lf' in the format string
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sync_directory\workspace\PSBA_LM\x64\Release\bundle_adjustment.exe" /INCREMENTAL:NO /NOLOGO OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\sync_directory\workspace\PSBA_LM\x64\Release\bundle_adjustment.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\sync_directory\workspace\PSBA_LM\x64\Release\bundle_adjustment.lib" /MACHINE:X64 x64\Release\cl_psba.obj
+         x64\Release\levmar_func_cpu.obj
+         x64\Release\linearalg.obj
+         x64\Release\levmar_func.obj
+         x64\Release\levmar.obj
+         x64\Release\main.obj
+         x64\Release\misc.obj
+         x64\Release\readparams.obj
+         x64\Release\stdafx.obj
+         x64\Release\structs.obj
+         正在生成代码
+         5 of 195 functions ( 2.6%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         bundle_adjustment.vcxproj -> E:\sync_directory\workspace\PSBA_LM\x64\Release\bundle_adjustment.exe
+     1>已完成生成项目“E:\sync_directory\workspace\PSBA_LM\bundle_adjustment\bundle_adjustment.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.35

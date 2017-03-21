@@ -1,0 +1,72 @@
+﻿生成启动时间为 2017/3/5 13:03:51。
+     1>项目“E:\sync_directory\workspace\PSBA_LM\PSBA_LM\PSBA_LM.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (bundle_adjustment.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\PSBA_LM.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\PSBA_LM.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt cl_linearalg.cpp cl_spdinv.cpp cl_psba.cpp levmar_func_cpu.cpp sba_func.cpp levmar.cpp main.cpp misc.cpp readparams.cpp
+         readparams.cpp
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\readparams.cpp(65): warning C4477: 'fscanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+         e:\sync_directory\workspace\psba_lm\psba_lm\readparams.cpp(65): note: consider using '%lf' in the format string
+         misc.cpp
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\misc.cpp(141): warning C4477: 'fprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'size_t'
+         e:\sync_directory\workspace\psba_lm\psba_lm\misc.cpp(141): note: consider using '%zu' in the format string
+         main.cpp
+         levmar.cpp
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(27): warning C4101: “cnt_arr”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(27): warning C4101: “idx_arr”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(26): warning C4101: “idx”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(102): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(629): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(697): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(732): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(877): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(944): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1009): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1069): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1121): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1167): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\levmar.cpp(267): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         sba_func.cpp
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(27): warning C4101: “cnt_arr”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(27): warning C4101: “idx_arr”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(26): warning C4101: “idx”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(102): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(629): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(697): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(732): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(877): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(944): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1009): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1069): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1121): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\sba_func.cpp(1167): warning C4838: 从“int”转换到“size_t”需要收缩转换
+         levmar_func_cpu.cpp
+         cl_psba.cpp
+         cl_spdinv.cpp
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(21): warning C4101: “err”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(74): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(137): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(123): warning C4101: “queue_device”: 未引用的局部变量
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(183): warning C4838: 从“int”转换到“size_t”需要收缩转换
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(172): warning C4101: “queue_device”: 未引用的局部变量
+         cl_linearalg.cpp
+         正在生成代码...
+     1>e:\sync_directory\workspace\psba_lm\psba_lm\cl_spdinv.cpp(40): warning C4715: “SPDinv”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sync_directory\workspace\PSBA_LM\x64\Debug\PSBA_LM.exe" /INCREMENTAL /NOLOGO OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\sync_directory\workspace\PSBA_LM\x64\Debug\PSBA_LM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\sync_directory\workspace\PSBA_LM\x64\Debug\PSBA_LM.lib" /MACHINE:X64 x64\Debug\cl_linearalg.obj
+         x64\Debug\cl_spdinv.obj
+         x64\Debug\cl_psba.obj
+         x64\Debug\levmar_func_cpu.obj
+         x64\Debug\sba_func.obj
+         x64\Debug\levmar.obj
+         x64\Debug\main.obj
+         x64\Debug\misc.obj
+         x64\Debug\readparams.obj
+         x64\Debug\stdafx.obj
+         PSBA_LM.vcxproj -> E:\sync_directory\workspace\PSBA_LM\x64\Debug\PSBA_LM.exe
+     1>已完成生成项目“E:\sync_directory\workspace\PSBA_LM\PSBA_LM\PSBA_LM.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.87
